@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playwrite+BE+WAL+Guides&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    width: 100vw;
+    min-height: 100vh;  
+    margin-bottom: 50px;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 16px !important;
+    margin-top: 28px;
+    margin-left: 16px;
+    /* width: 80%; */
+}
+
+.NavBar {
+    display: none;
+}
+
+#logo {
+    width: 44.98px;
+    height: 28px;
+    top: 28px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#Hamburger {
+    width: 40px;
+height: 17px;
+top: 34px;
+left: 319px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+.mainPart {
+    margin-top: 32px;
+    margin-left: 16px;
+    width: 90%;
+}
+
+.mainPart img {
+    height: 300px;
+    width: 100%;
+}
+
+.textPart1 {
+    margin-top: 24px;
+}
+
+.textPart1 h2 {
+    font-family: Inter, serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#00001A;
+}
+
+#p1 {
+    margin-top: 16px;
+font-family: Inter, serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#5E607A;
+}
+
+#p2 {
+    margin-top: 24px;
+    width: 185px;
+height: 48px;
+gap: 0px;
+opacity: 0px;
+background-color: #F15D51;
+color: #FFFDFA;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.mainPart2 {
+    flex-direction: column;
+    display: flex;
+    margin-top: 64px;
+    width: 100%;
+    height: 489px;
+    background-color: #00001A;
+}
+
+.Text h2 {
+    margin-top: 32px;
+    margin-left: 21px;
+font-family: Inter, serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #E9AA52;
+}
+
+.mainPart2 h2 {
+
+}
+
+.Inside {
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: flex;
+    width: 90%;
+    margin-left: 21px;
+    height: 400px;
+}
+
+.Inside h3 {
+font-family: Inter, serif;
+font-size: 20px;
+font-weight: 800;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFDFA;
+
+}
+
+.Inside p {
+font-family: Inter, serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #C5C6CE;
+}
+
+.lastPart {
+    margin-top: 64px;
+    margin-left: 16px;
+    
+
+}
+
+.firstCard {
+    
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.firstCard img {
+    width: 100px;
+height: 127px;
+}
+
+
+.TextPart {
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    width: 62%;
+}
+
+.TextPart h3 {
+font-family: Inter, serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #C5C6CE;
+
+}
+
+.TextPart h4 {
+    font-family: Inter, serif;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #00001A;
+}
+
+.TextPart p {
+font-family: Inter,serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #5E607A;
+
+}
+
+

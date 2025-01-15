@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playwrite+BE+WAL+Guides&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    width: 100vw;
+    min-height: 100vh;  
+    margin-bottom: 50px;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    
+}
+
+.header {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 165px;
+    margin-right: 165px;
+    height: 40px;
+    width: calc(100% - 330px);
+    margin-top: 72px;
+    }
+
+#Hamburger {
+    display: none;
+}
+
+.NavBar {
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+    display: flex;
+    color:#5E607A;
+
+}
+
+
+.mainPart {
+   
+    margin-top: 72px;
+    display: flex;
+    margin-left: 165px;
+    margin-right: 165px;
+    width: calc(100% - 330px);
+}
+
+.firstPart {
+    height: 529px;
+    width: 100%;
+}
+
+.mainPart img {
+    width: 100%;
+}
+
+.textPart1 {
+    
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.textPart1 h2 {
+    width: 100%;
+
+    color: #00001A;
+    font-family: Inter, serif;
+font-size: 56px;
+font-weight: 800;
+line-height: 56px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.textPart1 p {
+    width: 100%;
+    color: #5E607A;
+    font-family: Inter, serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.secoundPartText {
+    margin-left: 24px
+}
+
+#p2 {
+    margin-top: 28px;
+    display: flex;
+    width: 185px;
+height: 48px;
+gap: 0px;
+opacity: 0px;
+background: #F15D51;
+justify-content: center;
+align-items: center;
+font-family: Inter, serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 4.375px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#FFFDFA;
+}
+.mainPart2 {
+    width: 63%;
+    background: #00001A;
+    margin-left: 16px;
+}
+
+
+.Text h2 {
+    margin-left: 20px;
+    color: #E9AA52;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 30px;
+}
+
+.Inside {
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    margin-top: 27px;
+    margin-right: 16px;
+    margin-left: 16px;
+
+    height: 396px;
+}
+
+.Inside h3 {
+    color:  #FFFDFA;
+font-family: Inter, serif;
+font-size: 20px;
+font-weight: 800;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.Inside p {
+    color: #C5C6CE;
+font-family: Inter, serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.lastPart {
+
+    margin-top: 108px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 165px;
+    margin-right: 165px;
+    width: calc(100% - 330px);
+}
+
+.firstCard {
+    
+    display: flex;
+    width: 26%;
+    justify-content: space-between;
+}
+
+.firstCard img {
+    width: 100px;
+height: 127px;
+}
+
+.TextPart {
+    margin-left: 12px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TextPart h3 {
+font-family: Inter,serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #C5C6CE;
+}
+
+.TextPart h4 {
+color: #00001A;
+font-family: Inter, serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.TextPart p {
+color: #5E607A;
+font-family: Inter, serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
